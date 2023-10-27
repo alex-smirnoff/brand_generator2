@@ -1,6 +1,6 @@
 @font-face{
     font-family: "Inter Normal";
-    src: url("../fonts/Inter-VariableFont.ttf") format("truetype");
+    src: url("../fonts/Inter-VariableFont.ttf") format("woff2");
 }
 @media (max-width: 350px) {
     .header{padding: 0 1vw !important; min-width: 300px !important;}
@@ -81,8 +81,6 @@
 }
 *{
     font-family: "Inter Normal";
-    font-size: 100%;
-    -webkit-text-size-adjust: 100%;
 }
 body{
     display: flex;
