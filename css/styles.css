@@ -81,9 +81,8 @@
 }
 *{
     font-family: "Inter Normal";
+    font-size: 100%;
     -webkit-text-size-adjust: 100%;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: geometricPrecision;
 }
 body{
     display: flex;
