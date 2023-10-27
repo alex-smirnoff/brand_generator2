@@ -18,6 +18,8 @@ body{
     overflow-y: scroll;
     width: 100%;
     height: 100%;
+    -webkit-font-smoothing: subpixel-antialiased !important; 
+    text-rendering:optimizeLegibility !important;
 }
 .header{
     display: flex;
