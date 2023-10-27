@@ -4,6 +4,8 @@
 }
 *{
     font-family: "Inter Normal";
+    -webkit-font-smoothing: subpixel-antialiased !important; 
+    text-rendering:optimizeLegibility !important;
 }
 body{
     display: flex;
