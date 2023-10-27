@@ -4,7 +4,7 @@
 }
 *{
     font-family: "Inter Normal";
-    -webkit-font-smoothing: subpixel-antialiased !important; 
+    -webkit-font-smoothing: antialiased !important; 
     text-rendering:optimizeLegibility !important;
 }
 body{
@@ -18,7 +18,7 @@ body{
     overflow-y: scroll;
     width: 100%;
     height: 100%;
-    -webkit-font-smoothing: subpixel-antialiased !important; 
+    -webkit-font-smoothing: antialiased !important; 
     text-rendering:optimizeLegibility !important;
 }
 .header{
