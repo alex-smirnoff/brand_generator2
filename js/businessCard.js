@@ -182,6 +182,11 @@ generateCardButton.addEventListener("mouseenter", function() {
         showInfoMessage(warningMessage, "#FFF8D9", true, document.querySelector(".warningText"), "Заповніть всі необхідні поля, щоб створити візитку")
     }   
 })
+generateCardButton.addEventListener("ontouchstart", function() {
+    if (this.disabled === true) {
+        showInfoMessage(warningMessage, "#FFF8D9", true, document.querySelector(".warningText"), "Заповніть всі необхідні поля, щоб створити візитку")
+    }   
+})
 getQrButton.addEventListener("mouseenter", function() {
     if (this.disabled === true) {
         showInfoMessage(warningMessage, "#FFF8D9", true, document.querySelector(".warningText"), "Заповніть всі необхідні поля, щоб створити QR-код")
