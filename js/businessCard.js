@@ -182,7 +182,7 @@ generateCardButton.addEventListener("mouseenter", function() {
         showInfoMessage(warningMessage, "#FFF8D9", true, document.querySelector(".warningText"), "Заповніть всі необхідні поля, щоб створити візитку")
     }   
 })
-generateCardButton.addEventListener("ontouchstart", function() {
+generateCardButton.addEventListener("touchstart", function() {
     if (this.disabled === true) {
         showInfoMessage(warningMessage, "#FFF8D9", true, document.querySelector(".warningText"), "Заповніть всі необхідні поля, щоб створити візитку")
     }   
