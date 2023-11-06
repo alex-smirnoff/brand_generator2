@@ -54,6 +54,10 @@ body{
     cursor: pointer;
     margin-bottom: 46px;
 }
+.arrowInButton{
+    min-width: 7px;
+    min-height: 16px;
+}
 .fieldTextLabel{
     position: relative;
     color: #818A8F;
