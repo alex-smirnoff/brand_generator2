@@ -491,7 +491,7 @@ function createBusinessCard () {
 	    {
             text: additionalInfoInCard.textContent,
             fontSize: 6,
-            margin: [139, 0, 0, 0],
+            margin: [139, 0.1, 0, 0],
 	        // absolutePosition: { x: 153.7, y: additionalInfoMargin }
             // in case of absolute position, additionalInfoMargin was calculated with the formula: additionalInfoMargin = (positionInCard.getBoundingClientRect().top - cardFront.getBoundingClientRect().top + positionInCard.getBoundingClientRect().height + tempDifference + ... and here we adjust the value according to screen width ...) * 141.73 / 210;
         },
