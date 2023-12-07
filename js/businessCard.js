@@ -465,8 +465,9 @@ function stringLengthControl (triggerLineInCard, triggerInput) {
         if (triggerLineInCard.getBoundingClientRect().height < 14) {
             errorMessage.style = null;
         }
-        if (triggerLineInCard.getBoundingClientRect().height < 14 && triggerLineInCard.textContent.includes("@"))
-        triggerInput.style = null;
+        if ((triggerLineInCard.getBoundingClientRect().height < 14 && triggerLineInCard.textContent.includes("@")) || emailInput.value.length === 0){
+            triggerInput.style = null;
+        }
     }
 }
 function createBusinessCard () {
