@@ -3,9 +3,8 @@
     src: url("../fonts/Inter-VariableFont.ttf") format("woff2");
 }
 *{
-    font-family: "Inter Normal", serif;
+    font-family: "Inter Normal", sans-serif;
     -webkit-text-size-adjust: 100%;
-    -webkit-text-stroke: #FFF;
 }
 body{
     display: flex;
