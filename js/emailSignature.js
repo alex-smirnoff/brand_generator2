@@ -277,6 +277,7 @@ generateCardButton.addEventListener("click", () => {
         const range = document.createRange();
         range.selectNode(tempDiv);
         window.getSelection().addRange(range);
+        window.alert("copied!");
         document.execCommand("copy");
         window.getSelection().removeAllRanges();
         tempDiv.remove();
