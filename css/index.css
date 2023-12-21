@@ -5,8 +5,8 @@
 *{
     font-family: "Inter Normal", sans-serif;
     -webkit-text-size-adjust: 100%;
-    -webkit-text-stroke: none !important;
-    text-stroke: none !important;
+    -webkit-text-stroke: 0px;
+    text-stroke: 0px;
 }
 body{
     display: flex;
