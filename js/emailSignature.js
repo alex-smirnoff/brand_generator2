@@ -272,7 +272,6 @@ generateCardButton.addEventListener("click", () => {
         imageClone.src = tempCanvas.toDataURL("image/png");
         imageClone.style.position = 'relative';
         imageClone.style.marginTop = '10px';
-        imageClone.style.marginLeft = '-2px';
         tempDiv.appendChild(imageClone);
         document.body.appendChild(tempDiv);
         const range = document.createRange();
