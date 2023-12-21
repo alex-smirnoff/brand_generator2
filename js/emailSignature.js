@@ -265,7 +265,7 @@ generateCardButton.addEventListener("click", () => {
         const tempCanvas = document.createElement("canvas");
         tempCanvas.width = 130;
         tempCanvas.height = 170;
-        tempCanvas.imageSmoothingEnabled = false;
+        tempCanvas.imageSmoothingEnabled = true;
         tempCanvas.getContext("2d").drawImage(this, 0, 0, 130, 130);
         tempCanvas.getContext("2d").drawImage(document.querySelector(".logoCard"), 0, 142, 130, 23);
         const imageClone = new Image();
