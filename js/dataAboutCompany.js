@@ -69,7 +69,7 @@ let assetsUKR = {
 }
 let webPagesOfAssetsUKR = {
     "ТОВ «Метінвест Холдинг»": "metinvestholding.com",
-	"ТОВ «Метінвест-СМЦ»": "metinvest-smc.com",
+	"ТОВ «Метінвест-СМЦ»": "metinvestholding.com",
 	"ТОВ «Метінвест Діджитал»": "metinvest.digital",
 	"ПрАТ «Запоріжсталь»": "zaporizhstal.com",
 	"ТОВ «Юністіл»": "metinvestholding.com",
@@ -171,7 +171,7 @@ let assetsENG = {
 }
 let webPagesOfAssetsENG = {
     "Metinvest Holding LLC": "metinvestholding.com",
-	"Metinvest-SMC LLC": "metinvest-smc.com",
+	"Metinvest-SMC LLC": "metinvestholding.com",
 	"Metinvest Digital LLC": "metinvest.digital/en",
 	"Zaporizhstal PJSC": "zaporizhstal.com/en",
 	"Unisteel LLC": "metinvestholding.com",
